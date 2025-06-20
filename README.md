@@ -6,7 +6,7 @@
 
 
 
-📌 project 진행과정
+📌 project 진행과정 --> https://github.com/users/yewonseowill/projects/2/views/1
 
 ![스크린샷 2025-06-20 오후 10 13 30](https://github.com/user-attachments/assets/e8fc0341-1284-44aa-963d-b1294e0fef55)
 
@@ -14,7 +14,7 @@
 
 <hr>
 
-📌 project 주요노트
+📌 project 주요노트 --> https://github.com/yewonseowill/aiprof/issues
 
 <br>
 
