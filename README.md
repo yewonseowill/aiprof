@@ -24,7 +24,8 @@
 ![스크린샷 2025-06-20 오후 9 14 06](https://github.com/user-attachments/assets/37d3b2ad-a708-4031-b795-80dcab54cf2f)
 
 🟢 ## VML처리 ##
-![스크린샷 2025-06-20 오후 9 21 54](https://github.com/user-attachments/assets/5bd00cdc-bacd-4256-9800-b5f3bbb597b5)
+![스크린샷 2025-06-20 오후 9 32 11](https://github.com/user-attachments/assets/9f892505-aa41-483f-a5b0-135d9f940b4b)
+
 
 
 🟢 ## LLM(요약)처리 ##
