@@ -96,11 +96,11 @@ return render(request, 'main/upload_result.html', {'file_url': file_url, 'filena
 
 -  웹 UI에서 이미지 또는 PDF를 업로드함.
 - 업로드된 파일은 media/ 폴더에 저장되며, Django가 URL을 통해 접근할 수 있도록 함.
-- UI에는 다음 기능 버튼이 있음.
-1-1. OCR: 이미지 또는 PDF의 텍스트를 추출
-1-2. VLM: 이미지 설명 생성 (이미지에만 사용 가능)
-1-3. LLM 요약: OCR/VLM 결과를 GPT로 요약
-1-4. LLM 문제: GPT로 문제 생성
+- UI에는 다음 기능 버튼이 있음.<br>
+1-1. OCR: 이미지 또는 PDF의 텍스트를 추출<br>
+1-2. VLM: 이미지 설명 생성 (이미지에만 사용 가능)<br>
+1-3. LLM 요약: OCR/VLM 결과를 GPT로 요약<br>
+1-4. LLM 문제: GPT로 문제 생성<br>
 
 <hr>
 
