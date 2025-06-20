@@ -1,7 +1,7 @@
 
 # aiprof (AI 교수님 학습 시스템)
 
-🎥 ## YOUTUBE link [https://youtu.be/eJVzhjXi92s](https://youtu.be/z2W-yhO2614)
+🎥 <font color=red>시연영상</font> [https://youtu.be/eJVzhjXi92s](https://youtu.be/z2W-yhO2614)
 
 <hr>
 
