@@ -3,7 +3,8 @@
 
 <hr>
 
-![스크린샷 2025-06-20 오후 2 19 14](https://github.com/user-attachments/assets/c8a4de86-600e-4ab0-97c9-4ab83877afae)
+![스크린샷 2025-06-20 오후 8 33 56](https://github.com/user-attachments/assets/055308d7-1efe-4d2b-9699-b515a9407b9d)
+
 
 <hr>
 
