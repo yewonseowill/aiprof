@@ -1,8 +1,7 @@
 
 # aiprof (AI 교수님 학습 시스템)
 
-🎥 시연영상 [https://youtu.be/eJVzhjXi92s](https://youtu.be/z2W-yhO2614)
-
+🎥 시연영상 https://youtube.com/shorts/wvLAxh3a7qQ?feature=share
 <hr>
 
 ![스크린샷 2025-06-20 오후 8 33 56](https://github.com/user-attachments/assets/055308d7-1efe-4d2b-9699-b515a9407b9d)
