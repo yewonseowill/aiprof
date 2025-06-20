@@ -16,5 +16,7 @@
 
 ![스크린샷 2025-06-20 오후 8 31 27](https://github.com/user-attachments/assets/ace8d02f-408a-469a-8a28-337bfb5b033f)
 
+<hr>
+
 ![스크린샷 2025-06-20 오후 8 31 33](https://github.com/user-attachments/assets/6562c754-5131-4b1e-b768-9dda8367dbfc)
 
