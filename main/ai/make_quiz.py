@@ -95,15 +95,25 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 
-# 환경 변수 로딩
-load_dotenv()
-api_key = os.getenv("API_KEY")
-if not api_key:
-    raise RuntimeError(" API_KEY가 .env에서 불러와지지 않았습니다.")
 
-client = OpenAI(api_key=api_key)
+# # 환경 변수 로딩
+# load_dotenv()
+# api_key = os.getenv("API_KEY")
+# if not api_key:
+#     raise RuntimeError(" API_KEY가 .env에서 불러와지지 않았습니다.")
+#
+# client = OpenAI(api_key=api_key)
 
 def summarize_text(text: str, model="gpt-3.5-turbo") -> str:
+    print("=============")
+    print("입력된 데이터 : " + text)
+    # 환경 변수 로딩
+    load_dotenv()
+    api_key = os.getenv("API_KEY")
+    if not api_key:
+        raise RuntimeError(" API_KEY가 .env에서 불러와지지 않았습니다.")
+
+    client = OpenAI(api_key=api_key)
     system_prompt = (
         "너는 교육 내용을 요약하는 AI입니다. 핵심 개념, 원리, 정의 등을 "
         "가능한 간결하게 정리하되, 내용이 많은 경우는 문장 수를 늘려도 좋습니다. "
@@ -152,6 +162,14 @@ D. ...
 정답: O 또는 X
 """
 
+
+    # 환경 변수 로딩
+    load_dotenv()
+    api_key = os.getenv("API_KEY")
+    if not api_key:
+        raise RuntimeError(" API_KEY가 .env에서 불러와지지 않았습니다.")
+
+    client = OpenAI(api_key=api_key)
     response = client.chat.completions.create(
         model=model,
         messages=[

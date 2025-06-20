@@ -33,13 +33,13 @@ def extract_text_from_image(path):
     except Exception as e:
         return f"이미지 OCR 실패: {str(e)}"
 
-def main():
-    if len(sys.argv) < 2:
-        print("사용법: python ocr_only.py 파일경로")
-        sys.exit(1)
-
-
-    path = sys.argv[1]
+def main(image_file):
+    # if len(sys.argv) < 2:
+    #     print("사용법: python ocr_only.py 파일경로")
+    #     sys.exit(1)
+    #
+    # path = sys.argv[1]
+    path = image_file;
     print(f"입력 파일 경로: {path}")
 
     if path.lower().endswith('.pdf'):

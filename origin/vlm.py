@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 pytesseract.pytesseract.tesseract_cmd = r"/opt/homebrew/bin/tesseract"
 
 # 분석할 이미지 파일 경로 지정
-image_path = "image1.png"
+image_path = "image3.png"
 
 # 이미지 불러오기 및 전처리
 image = cv2.imread(image_path)

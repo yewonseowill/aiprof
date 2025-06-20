@@ -127,7 +127,6 @@ def summarize_text(text: str, model="gpt-3.5-turbo") -> str:
 
 def generate_questions(text: str, model="gpt-3.5-turbo") -> str:
     system_prompt = "너는 교육 내용을 바탕으로 대표적인 문제를 출제하는 AI 선생님입니다."
-
     user_prompt = f"""
 다음 요약 내용을 바탕으로 문제를 만들어줘:
 

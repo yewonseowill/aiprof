@@ -52,6 +52,7 @@ def main(image_file):
 
     print("\n=== 추출된 텍스트 ===\n")
     print(text)
+    return text;
 
 if __name__ == "__main__":
     main()

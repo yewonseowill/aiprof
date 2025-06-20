@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AI Professor</title>
+
+    <!-- Django 정적파일 경로로 수정 -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+    <aside class="sidebar" id="sidebar">
+        <h1>AI Professor</h1>
+        <p class="upload-guide">이미지 업로드로 요약과 문제를 생성해보세요.</p>
+
+        <div class="upload-box" id="uploadBox">
+            <form action="{% url 'image_upload' %}" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <input type="file" name="image" accept="image/*" required>
+                <button type="submit">업로드</button>
+            </form>
+            <!--        <p class="upload-text">이미지 업로드</p>-->
+            <!--        <input type="file" id="fileInput" accept="image/*" />-->
+            <img id="preview" alt="preview"/>
+        </div>
+
+        <p id="uploadStatus" class="clickable">새 이미지 업로드</p>
+        <p id="clickGuide" style="display:none;"></p>
+    </aside>
+
+    <div id="resizer"></div>
+
+<!--    <main class="main">-->
+<!--        <div class="button-group">-->
+<!--            <button id="ocrBtn"><span>📄</span> OCR</button>-->
+<!--            <button id="summaryBtn"><span>📝</span> 요약</button>-->
+<!--            <button id="quizBtn"><span>🧠</span> 문제</button>-->
+<!--        </div>-->
+
+<!--        <div class="result-area" id="resultArea">-->
+<!--            <p class="placeholder">결과가 여기에 표시됩니다.</p>-->
+<!--        </div>-->
+
+<!--        <div id="answerSection"></div>-->
+<!--    </main>-->
+</div>
+
+<!-- JS 경로 수정 -->
+<script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
