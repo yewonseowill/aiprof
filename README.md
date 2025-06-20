@@ -4,10 +4,19 @@
 🎥 시연영상 https://youtu.be/IkvJoR0f8uM
 <hr>
 
+
+
+📌 project 진행과정
+
+![스크린샷 2025-06-20 오후 10 13 30](https://github.com/user-attachments/assets/e8fc0341-1284-44aa-963d-b1294e0fef55)
+
 ![스크린샷 2025-06-20 오후 8 33 56](https://github.com/user-attachments/assets/055308d7-1efe-4d2b-9699-b515a9407b9d)
 
 
 <hr>
+📌 project 주요화면
+
+<br>
 
 ![스크린샷 2025-06-20 오후 8 38 01](https://github.com/user-attachments/assets/4088ec9c-4a4b-4877-bcf2-8984e62f0f3a)
 
