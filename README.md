@@ -13,13 +13,16 @@
 ![스크린샷 2025-06-20 오후 8 33 56](https://github.com/user-attachments/assets/055308d7-1efe-4d2b-9699-b515a9407b9d)
 
 <hr>
+
 📌 project 주요노트
+
 <br>
 
 ![스크린샷 2025-06-20 오후 10 20 55](https://github.com/user-attachments/assets/f9344664-ceb4-4a2a-bf37-ff7766d699ae)
 
 
 <hr>
+
 📌 project 주요화면
 
 <br>
