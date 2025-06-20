@@ -14,10 +14,21 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+# myproject/urls.py
+
+from django.conf import settings
+from django.conf.urls.static import static
+from django.urls import path, include
 from django.contrib import admin
-from django.urls import path, include  # include 꼭 추가!
+
+# myproject/urls.py
+from django.contrib import admin
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('main.urls')),  # 루트로 들어오면 main.urls로 연결
+    path('', include('main.urls')),  # 여기가 핵심!
 ]
+# 개발 중 미디어 파일 서비스
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

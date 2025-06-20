@@ -11,9 +11,19 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+# settings.py
+
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+
+import os
+
+# 미디어 파일 저장 설정
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join('/Users/alicia/PycharmProjects/PythonProject/', 'media/')  # 예: /Users/alicia/PycharmProjects/PythonProject/media/
 
 
 # Quick-start development settings - unsuitable for production
