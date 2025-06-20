@@ -2,8 +2,11 @@
 # aiprof (AI 교수님 학습 시스템)
 
 🎥 시연영상 https://youtu.be/IkvJoR0f8uM
+
 <hr>
-📌 project 구조
+
+📌 project 구조 <br><br>
+
 ![스크린샷 2025-06-20 오후 11 08 01](https://github.com/user-attachments/assets/4e2e4796-2a8d-4043-b3c2-e0a5770ada1c)
 
 <hr>
