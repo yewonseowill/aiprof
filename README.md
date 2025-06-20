@@ -152,19 +152,15 @@ else:
 🟢 ## VML처리 ##
 ![스크린샷 2025-06-20 오후 9 32 11](https://github.com/user-attachments/assets/9f892505-aa41-483f-a5b0-135d9f940b4b)
 
-**1. 이미지 업로드**
-- /upload/ URL을 통해 이미지를 업로드
-- Django 서버는 image_upload() 함수를 호출한 다음 첨부파일을 media/ 폴더에 저장하고, filename을 HTML로 전달함.
 
-<hr>
 
-**2. 사용자가 VLM 버튼 클릭**
+**1.  사용자가 VLM 버튼 클릭**
 - 업로드 후 보여지는 화면(upload_result.html)에서 VLM 버튼을 누르면 JavaScript가 작동함.
 - 버튼을 누르면 파일이름을 함께  Django 서버로 보냄. 주소는  /vlm/ 
 
 <hr>
 
-**3. Django 서버 처리**
+**2. Django 서버 처리**
 
 🔵  **urls.py**
 
@@ -190,7 +186,7 @@ def vlm(request):
 
 <hr>
 
-**4. 이미지에서 텍스트 추출**
+**3. 이미지에서 텍스트 추출**
 
 ```
 
