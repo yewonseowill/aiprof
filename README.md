@@ -15,7 +15,7 @@
 
 <hr>
 
-📌 project 진행 과정  🔗 https://github.com/users/yewonseowill/projects/2/views/1
+📌 project 진행 과정  --> https://github.com/users/yewonseowill/projects/2/views/1
 
 ![image](https://github.com/user-attachments/assets/863c0c3a-2f83-4a2d-87b5-f9f1ea236940)
 
