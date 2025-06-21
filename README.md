@@ -14,6 +14,23 @@
 
 <hr>
 
+📌 project 진행 과정 --> https://github.com/users/yewonseowill/projects/2/views/1
+
+![image](https://github.com/user-attachments/assets/863c0c3a-2f83-4a2d-87b5-f9f1ea236940)
+
+<hr>
+
+📌 project 주요 노트 --> https://github.com/yewonseowill/aiprof/issues
+
+<br>
+
+![image](https://github.com/user-attachments/assets/19b0cf2d-afd9-43c0-a847-d0d681638e1f)
+
+
+![image](https://github.com/user-attachments/assets/6d4311b9-a966-47b6-9316-ac71dc215fdf)
+
+<hr>
+
 📌 project 구조 <br>
 
 ![스크린샷 2025-06-20 오후 11 08 01](https://github.com/user-attachments/assets/4e2e4796-2a8d-4043-b3c2-e0a5770ada1c)
@@ -140,21 +157,6 @@ API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 �
 <hr>
 </body>
 </html>
-
-
-📌 project 진행 과정 --> https://github.com/users/yewonseowill/projects/2/views/1
-
-![image](https://github.com/user-attachments/assets/863c0c3a-2f83-4a2d-87b5-f9f1ea236940)
-
-<hr>
-
-📌 project 주요 노트 --> https://github.com/yewonseowill/aiprof/issues
-
-<br>
-
-![image](https://github.com/user-attachments/assets/f18df127-1172-4f7b-a45c-8bab8c640693)
-
-![image](https://github.com/user-attachments/assets/6d4311b9-a966-47b6-9316-ac71dc215fdf)
 
 
 <hr>
