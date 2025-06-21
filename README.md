@@ -1,7 +1,11 @@
 
 # aiprof (AI 교수님 학습 시스템)
 
-![스크린샷 2025-06-20 오후 8 33 56](https://github.com/user-attachments/assets/055308d7-1efe-4d2b-9699-b515a9407b9d)
+![image](https://github.com/user-attachments/assets/34265731-6913-4517-81b7-001652dfb0e2)
+
+![image](https://github.com/user-attachments/assets/17ae8397-4d28-43d8-99a3-4007d0df98a7)
+
+
 
 <hr>
 
