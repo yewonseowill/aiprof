@@ -16,6 +16,64 @@
 <hr>
 
 📌 project 주요 기술 스택 <br>
+
+<html>
+<body>
+
+<hr>
+<h2> 전체 기술 스택 구성</h2>
+<h3>1. <strong>프론트엔드 (Frontend)</strong></h3>
+
+기술 | 설명
+-- | --
+HTML5 / CSS3 | 웹 페이지의 구조 및 스타일 지정
+Bootstrap 5 | 반응형 UI 프레임워크 활용 (버튼, 카드 등)
+Pretendard 폰트 | 사용자 지정 웹폰트로 UI 일관성 확보
+Vanilla JS | 버튼 이벤트 핸들링 및 AJAX 가능
+Static files (Django) | css/style.css, js/script.js, images/aiprof.png 등의 정적 리소스를 템플릿에 적용
+
+<hr>
+
+
+</body>
+</html>
+
+
+### **2. 백엔드 (Backend) - Django 기반**
+| 기술/모듈          | 설명                                                                 |
+|-------------------|----------------------------------------------------------------------|
+| Django 4.x        | Python 기반의 웹 프레임워크                                           |
+| views.py          | 이미지 업로드, OCR, VLM, LLM 요약 및 문제생성 요청 처리               |
+| 템플릿 엔진        | `index.html`, `upload_result.html` 등 Jinja-like 문법 사용 (`{% %}`, `{{ }}`) |
+| FileSystemStorage | 업로드된 이미지를 로컬 파일 시스템(Mac) 내 `/media/` 디렉토리에 저장     |
+| CSRF 토큰         | `{% csrf_token %}`으로 POST 요청 보안 처리                            |
+| URL reverse       | `{% url 'image_upload' %}` 식의 URL 자동 생성                        |
+
+<hr>
+
+### **3. AI 기능 연동 (서버 사이드 Python 연동)**
+| 기능                              | 사용 모듈                             | 설명                                                   |
+|-----------------------------------|----------------------------------------|--------------------------------------------------------|
+| **OCR**                           | `pytesseract`, `cv2` (OpenCV)          | 이미지에서 텍스트 인식 및 추출                         |
+| **VLM (Vision-Language Model)**   | `vlm_main()`                           | 이미지 기반 텍스트 분석 (시각 정보 해석 등)            |
+| **LLM 요약**                      | OpenAI GPT (`summarize_text`)          | GPT 모델을 통한 텍스트 요약                            |
+| **LLM 문제생성**                  | OpenAI GPT (`generate_questions`)      | GPT 모델을 통한 퀴즈 자동 생성                         |
+| **모델 API 연동**                | `openai`, `dotenv`                     | `.env`에 저장된 API 키를 불러와 OpenAI와 통신         |
+
+<hr>
+
+### **4. 서버/파일 구조 (Mac 기반)**
+
+| 구성 요소             | 설명                                                       |
+|-----------------------|------------------------------------------------------------|
+| `main/static/`        | `css/`, `js/`, `images/` 등 정적 리소스 폴더               |
+| `main/templates/`     | `index.html`, `upload_result.html` 등 HTML 템플릿 파일      |
+| `main/views.py`       | Django View 로직 작성 파일                                 |
+| `/media/`             | Mac 로컬 디렉토리에 업로드된 이미지 저장 디렉토리         |
+| 상대 경로 import       | `from main.ai.ocr_only import main` 등으로 AI 기능 분리 관리 |
+
+<hr>
+
 🔴 **ai/ocr_only.py**
 
 <html>
