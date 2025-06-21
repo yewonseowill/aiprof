@@ -374,7 +374,7 @@ def summarize_text(text: str, model="gpt-3.5-turbo"):
 
 ```
 - 시스템 프롬프트와 사용자 입력을 기반으로 GPT가 3~7문장으로 요약
-- 
+  
 <hr>
 
 🟢 ## LLM(문제출제) 처리 ##  🔗 https://github.com/yewonseowill/aiprof/issues/9
