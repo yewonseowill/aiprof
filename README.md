@@ -1,7 +1,8 @@
 
 # aiprof (AI 교수님 학습 시스템)
 
-![image](https://github.com/user-attachments/assets/9fdb54bd-ebd9-4cc8-b8f7-bafb0130609a)
+![image](https://github.com/user-attachments/assets/adf71040-317a-4eb4-88e1-284330089b66)
+
 
 ![image](https://github.com/user-attachments/assets/8ce7484a-a81a-4913-9232-e273aecb4bf8)
 
