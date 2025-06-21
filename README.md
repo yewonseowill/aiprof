@@ -11,7 +11,7 @@
 
 <hr>
 
-🎥 시연 영상 [![Watch the video](https://img.shields.io/badge/YouTube-영상보기-red?logo=youtube)]([https://www.youtube.com/watch?v=영상ID](https://youtu.be/IkvJoR0f8uM?si=2IMeuYV8UcSTmEdS))
+🎥 시연 영상 [![Watch the video](https://img.shields.io/badge/YouTube-영상보기-red?logo=youtube)](https://youtu.be/IkvJoR0f8uM?si=LpYKX-VWKfVkvkfA)
 
 
 
