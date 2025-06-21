@@ -144,9 +144,7 @@ API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 �
 
 📌 project 진행 과정 --> https://github.com/users/yewonseowill/projects/2/views/1
 
-![스크린샷 2025-06-20 오후 10 13 30](https://github.com/user-attachments/assets/e8fc0341-1284-44aa-963d-b1294e0fef55)
-
-
+![image](https://github.com/user-attachments/assets/863c0c3a-2f83-4a2d-87b5-f9f1ea236940)
 
 <hr>
 
