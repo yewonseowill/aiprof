@@ -153,10 +153,9 @@ API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 �
 
 <br>
 
-![image](https://github.com/user-attachments/assets/e64c5828-00dc-4a5d-bda7-535b112b11bf)
+![image](https://github.com/user-attachments/assets/f18df127-1172-4f7b-a45c-8bab8c640693)
 
-
-![스크린샷 2025-06-20 오후 11 11 58](https://github.com/user-attachments/assets/49e1aab1-72b1-4993-ac8c-fa987397a7d0)
+![image](https://github.com/user-attachments/assets/6d4311b9-a966-47b6-9316-ac71dc215fdf)
 
 
 <hr>
