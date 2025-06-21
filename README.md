@@ -15,6 +15,70 @@
 
 <hr>
 
+📌 project 주요 기술 스택 <br>
+🔴 **ai/ocr_only.py**
+
+<html>
+<body>
+<hr>
+<h2> 기술 스택 및 주요 라이브러리</h2>
+
+분류 | 라이브러리 | 역할 및 기능 설명
+-- | -- | --
+PDF 처리 | fitz (PyMuPDF) | PDF 파일 열기, 페이지 접근, 텍스트 추출, 이미지 렌더링 등
+이미지 처리 | PIL.Image (Pillow) | OCR 전 이미지 객체로 변환
+OCR | pytesseract | 이미지에서 한글 및 영어 텍스트 추출
+시스템 제어 | sys, io | 인자 처리 및 바이너리 이미지 → 스트림 변환
+언어 설정 | 'eng+kor' | 영어와 한글 동시 인식 가능하도록 OCR 언어 설정
+
+
+<hr>
+
+</body>
+</html>
+
+🔴 **ai/vlm.py**
+
+<html>
+<body>
+<hr>
+ 
+분류 | 사용 라이브러리 | 설명
+-- | -- | --
+이미지 처리 | cv2 (OpenCV) | 이미지 불러오기, 흑백 변환, 블러링, 적응 임계처리 등
+OCR | pytesseract | 전처리된 이미지로부터 텍스트 인식 (한글+영어)
+시각화 | matplotlib.pyplot | 이미지 및 텍스트 시각화 (옵션)
+텍스트 이미지화 | PIL.Image, ImageDraw, ImageFont | OCR 결과 텍스트를 이미지로 변환해 시각적으로 표현
+기타 | numpy | 텍스트 이미지를 다룰 때 배열 조작에 활용 (옵션에서만 사용)
+
+
+<hr>
+</body>
+</html>
+
+🔴 **ai/make_quiz.py**
+
+<html>
+<body>
+<hr>
+ 
+분류 | 사용 기술/라이브러리 | 설명
+-- | -- | --
+언어 | Python 3.x | 전체 구현 언어
+LLM API | openai | GPT-3.5-turbo 모델을 이용하여 텍스트 요약 및 문제 생성
+API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 클라이언트 인스턴스 생성 (v1 SDK 방식)
+환경 변수 관리 | python-dotenv (load_dotenv) | .env 파일에서 API 키를 불러오기 위한 라이브러리
+환경 설정 | .env 파일 + os.getenv() | API 키를 안전하게 관리 및 호출
+텍스트 처리 | 사용자 정의 함수 summarize_text, generate_questions | OCR로 추출된 텍스트 요약 및 문제 생성 담당
+문제 포맷 | OX, 객관식 | 생성된 문제는 지정된 포맷에 맞게 정답 포함하여 출력
+입출력 구조 | print() + __main__ 블록 | 콘솔 기반 실행 테스트용 예제 포함
+
+
+<hr>
+</body>
+</html>
+
+
 📌 project 진행과정 --> https://github.com/users/yewonseowill/projects/2/views/1
 
 ![스크린샷 2025-06-20 오후 10 13 30](https://github.com/user-attachments/assets/e8fc0341-1284-44aa-963d-b1294e0fef55)
