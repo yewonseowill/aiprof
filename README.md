@@ -15,13 +15,13 @@
 
 <hr>
 
-📌 project 진행 과정 --> https://github.com/users/yewonseowill/projects/2/views/1
+📌 project 진행 과정  🔗 https://github.com/users/yewonseowill/projects/2/views/1
 
 ![image](https://github.com/user-attachments/assets/863c0c3a-2f83-4a2d-87b5-f9f1ea236940)
 
 <hr>
 
-📌 project 주요 노트 --> https://github.com/yewonseowill/aiprof/issues
+📌 project 주요 노트  --> https://github.com/yewonseowill/aiprof/issues
 
 <br>
 
@@ -38,7 +38,7 @@
 
 <hr>
 
-📌 project 주요 기술 스택 <br> --> https://github.com/yewonseowill/aiprof/issues/14
+📌 project 주요 기술 스택 🔗 https://github.com/yewonseowill/aiprof/issues/14
 
 <html>
 <body>
@@ -97,7 +97,7 @@ Static files (Django) | css/style.css, js/script.js, images/aiprof.png 등의 �
 
 <hr>
 
-🔴 **ai/ocr_only.py**  --> https://github.com/yewonseowill/aiprof/issues/12
+🔴 **ai/ocr_only.py** 🔗 https://github.com/yewonseowill/aiprof/issues/12
 
 <html>
 <body>
@@ -118,7 +118,7 @@ OCR | pytesseract | 이미지에서 한글 및 영어 텍스트 추출
 </body>
 </html>
 
-🔴 **ai/vlm.py** --> https://github.com/yewonseowill/aiprof/issues/13
+🔴 **ai/vlm.py** 🔗  https://github.com/yewonseowill/aiprof/issues/13
 
 <html>
 <body>
@@ -137,7 +137,7 @@ OCR | pytesseract | 전처리된 이미지로부터 텍스트 인식 (한글+영
 </body>
 </html>
 
-🔴 **ai/make_quiz.py** --> https://github.com/yewonseowill/aiprof/issues/11
+🔴 **ai/make_quiz.py** 🔗  https://github.com/yewonseowill/aiprof/issues/11
 
 <html>
 <body>
@@ -174,7 +174,7 @@ API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 �
 
 ![스크린샷 2025-06-20 오후 8 40 33](https://github.com/user-attachments/assets/46542d48-d9d5-431b-82c0-6a9405040d68)
 
-🟢 ## 파일 업로드 ## --> https://github.com/yewonseowill/aiprof/issues/7
+🟢 ## 파일 업로드 ## 🔗  https://github.com/yewonseowill/aiprof/issues/7
 
 ![스크린샷 2025-06-20 오후 9 15 11](https://github.com/user-attachments/assets/32c194d0-5b86-4378-a614-91217a6779e0)
 
@@ -217,7 +217,7 @@ return render(request, 'main/upload_result.html', {'file_url': file_url, 'filena
 
 <hr>
 
-🟢 ## OCR처리 ## --> https://github.com/yewonseowill/aiprof/issues/6
+🟢 ## OCR처리 ## 🔗  https://github.com/yewonseowill/aiprof/issues/6
 ![스크린샷 2025-06-20 오후 9 14 06](https://github.com/user-attachments/assets/37d3b2ad-a708-4031-b795-80dcab54cf2f)
 
 **1. 인터페이스** 
@@ -277,7 +277,7 @@ else:
 
 <hr>
 
-🟢 ## VML처리 ## --> https://github.com/yewonseowill/aiprof/issues/8
+🟢 ## VML처리 ## 🔗 https://github.com/yewonseowill/aiprof/issues/8
 ![스크린샷 2025-06-20 오후 9 32 11](https://github.com/user-attachments/assets/9f892505-aa41-483f-a5b0-135d9f940b4b)
 
 
@@ -328,7 +328,7 @@ def vlm_main(image_file):
 
 <hr>
 
-🟢 ## LLM(요약) 처리 ## --> https://github.com/yewonseowill/aiprof/issues/9
+🟢 ## LLM(요약) 처리 ##  🔗 https://github.com/yewonseowill/aiprof/issues/9
 ![스크린샷 2025-06-20 오후 9 27 56](https://github.com/user-attachments/assets/5b510aba-2057-4d49-a5fc-92d87dbf2cb4)
 
 **1. 요약 버튼 클릭**
@@ -375,7 +375,7 @@ def summarize_text(text: str, model="gpt-3.5-turbo"):
 - 
 <hr>
 
-🟢 ## LLM(문제출제) 처리 ## --> https://github.com/yewonseowill/aiprof/issues/9
+🟢 ## LLM(문제출제) 처리 ##  🔗 https://github.com/yewonseowill/aiprof/issues/9
 ![스크린샷 2025-06-20 오후 9 30 25](https://github.com/user-attachments/assets/f5181d7b-ea94-475e-9919-6555efc6e44b)
 
 **1. 문제 버튼 클릭**
