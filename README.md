@@ -5,7 +5,7 @@
 
 <hr>
 
-🎥 시연영상 https://youtu.be/IkvJoR0f8uM
+🎥 시연 영상 https://youtu.be/IkvJoR0f8uM
 
 <hr>
 
@@ -79,7 +79,7 @@ API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 �
 </html>
 
 
-📌 project 진행과정 --> https://github.com/users/yewonseowill/projects/2/views/1
+📌 project 진행 과정 --> https://github.com/users/yewonseowill/projects/2/views/1
 
 ![스크린샷 2025-06-20 오후 10 13 30](https://github.com/user-attachments/assets/e8fc0341-1284-44aa-963d-b1294e0fef55)
 
@@ -87,7 +87,7 @@ API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 �
 
 <hr>
 
-📌 project 주요노트 --> https://github.com/yewonseowill/aiprof/issues
+📌 project 주요 노트 --> https://github.com/yewonseowill/aiprof/issues
 
 <br>
 
@@ -99,7 +99,7 @@ API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 �
 
 <hr>
 
-📌 project 주요화면
+📌 project 주요 화면
 
 <br>
 
@@ -111,7 +111,7 @@ API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 �
 
 ![스크린샷 2025-06-20 오후 8 40 33](https://github.com/user-attachments/assets/46542d48-d9d5-431b-82c0-6a9405040d68)
 
-🟢 ## 파일업로드 ##
+🟢 ## 파일 업로드 ##
 
 ![스크린샷 2025-06-20 오후 9 15 11](https://github.com/user-attachments/assets/32c194d0-5b86-4378-a614-91217a6779e0)
 
@@ -159,7 +159,7 @@ return render(request, 'main/upload_result.html', {'file_url': file_url, 'filena
 
 **1. 인터페이스** 
 
--  웹 UI에서 이미지 또는 PDF를 업로드함.
+- 웹 UI에서 이미지 또는 PDF를 업로드함.
 - 업로드된 파일은 media/ 폴더에 저장되며, Django가 URL을 통해 접근할 수 있도록 함.
 - UI에는 다음 기능 버튼이 있음.<br>
 1-1. OCR: 이미지 또는 PDF의 텍스트를 추출<br>
@@ -247,7 +247,7 @@ def vlm(request):
 ```
 
 - 서버는 전달받은 filename을 통해 읽어올 파일경로와 파일명을 만듦.
-- vlm_main() 함수를 호출하여 이미지추출하고 텍스트로 요약함.
+- vlm_main() 함수를 호출하여 이미지를 추출하고 텍스트로 요약함.
 
 <hr>
 
@@ -265,7 +265,7 @@ def vlm_main(image_file):
 
 <hr>
 
-🟢 ## LLM(요약)처리 ##
+🟢 ## LLM(요약) 처리 ##
 ![스크린샷 2025-06-20 오후 9 27 56](https://github.com/user-attachments/assets/5b510aba-2057-4d49-a5fc-92d87dbf2cb4)
 
 **1. 요약 버튼 클릭**
@@ -312,7 +312,7 @@ def summarize_text(text: str, model="gpt-3.5-turbo"):
 - 
 <hr>
 
-🟢 ## LLM(문제출제)처리 ##
+🟢 ## LLM(문제출제) 처리 ##
 ![스크린샷 2025-06-20 오후 9 30 25](https://github.com/user-attachments/assets/f5181d7b-ea94-475e-9919-6555efc6e44b)
 
 **1. 문제 버튼 클릭**
