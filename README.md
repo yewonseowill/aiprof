@@ -176,6 +176,10 @@ API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 �
 
 ![스크린샷 2025-06-20 오후 8 40 33](https://github.com/user-attachments/assets/46542d48-d9d5-431b-82c0-6a9405040d68)
 
+<hr>
+
+![2025-06-22 09 09 14](https://github.com/user-attachments/assets/3ac22cbe-a6ef-4cd5-97e1-d0a922cc0b16)
+
 🟢 ## 파일 업로드 ## 🔗  https://github.com/yewonseowill/aiprof/issues/7
 
 ![스크린샷 2025-06-20 오후 9 15 11](https://github.com/user-attachments/assets/32c194d0-5b86-4378-a614-91217a6779e0)
@@ -219,7 +223,10 @@ return render(request, 'main/upload_result.html', {'file_url': file_url, 'filena
 
 <hr>
 
+![2025-06-22 09 08 45](https://github.com/user-attachments/assets/f8127d1e-85b7-4d6d-be9b-5452aa7a6312)
+
 🟢 ## OCR처리 ## 🔗  https://github.com/yewonseowill/aiprof/issues/6
+
 ![스크린샷 2025-06-20 오후 9 14 06](https://github.com/user-attachments/assets/37d3b2ad-a708-4031-b795-80dcab54cf2f)
 
 **1. 인터페이스** 
@@ -279,6 +286,8 @@ else:
 
 <hr>
 
+![2025-06-22 09 08 55](https://github.com/user-attachments/assets/1a577ba9-a60e-4294-82ca-76b09f28c72c)
+
 🟢 ## VML처리 ## 🔗 https://github.com/yewonseowill/aiprof/issues/8
 ![스크린샷 2025-06-20 오후 9 32 11](https://github.com/user-attachments/assets/9f892505-aa41-483f-a5b0-135d9f940b4b)
 
@@ -330,7 +339,10 @@ def vlm_main(image_file):
 
 <hr>
 
+![2025-06-22 09 08 55](https://github.com/user-attachments/assets/624f466f-d8bd-4b8d-afb7-ec843f9756cb)
+
 🟢 ## LLM(요약) 처리 ##  🔗 https://github.com/yewonseowill/aiprof/issues/9
+
 ![스크린샷 2025-06-20 오후 9 27 56](https://github.com/user-attachments/assets/5b510aba-2057-4d49-a5fc-92d87dbf2cb4)
 
 **1. 요약 버튼 클릭**
@@ -378,6 +390,7 @@ def summarize_text(text: str, model="gpt-3.5-turbo"):
 <hr>
 
 🟢 ## LLM(문제출제) 처리 ##  🔗 https://github.com/yewonseowill/aiprof/issues/9
+
 ![스크린샷 2025-06-20 오후 9 30 25](https://github.com/user-attachments/assets/f5181d7b-ea94-475e-9919-6555efc6e44b)
 
 **1. 문제 버튼 클릭**
