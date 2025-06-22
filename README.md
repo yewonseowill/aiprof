@@ -44,6 +44,10 @@
 
 📌 project 주요 기술 스택 🔗 https://github.com/yewonseowill/aiprof/issues/14
 
+![image](https://github.com/user-attachments/assets/84b2b049-fa27-4404-a637-c0e930b56eee)
+
+<br>
+
 <html>
 <body>
 
