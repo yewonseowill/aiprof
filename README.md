@@ -178,7 +178,8 @@ API 클라이언트 | OpenAI (from openai) | OpenAI(api_key=...)로 새로운 �
 
 <hr>
 
-![2025-06-22 09 09 14](https://github.com/user-attachments/assets/3ac22cbe-a6ef-4cd5-97e1-d0a922cc0b16)
+![2025-06-22 09 56 59](https://github.com/user-attachments/assets/edc46120-96e6-4665-9d22-b71862392e1a)
+
 
 🟢 ## 파일 업로드 ## 🔗  https://github.com/yewonseowill/aiprof/issues/7
 
@@ -223,7 +224,8 @@ return render(request, 'main/upload_result.html', {'file_url': file_url, 'filena
 
 <hr>
 
-![2025-06-22 09 08 45](https://github.com/user-attachments/assets/f8127d1e-85b7-4d6d-be9b-5452aa7a6312)
+![2025-06-22 09 56 45](https://github.com/user-attachments/assets/15a14b86-61ae-4c31-944f-a084dda3de9d)
+
 
 🟢 ## OCR처리 ## 🔗  https://github.com/yewonseowill/aiprof/issues/6
 
@@ -286,7 +288,8 @@ else:
 
 <hr>
 
-![2025-06-22 09 08 55](https://github.com/user-attachments/assets/1a577ba9-a60e-4294-82ca-76b09f28c72c)
+![2025-06-22 09 56 36](https://github.com/user-attachments/assets/11e8825c-8bde-4315-9fe7-9148a837bb52)
+
 
 🟢 ## VML처리 ## 🔗 https://github.com/yewonseowill/aiprof/issues/8
 ![스크린샷 2025-06-20 오후 9 32 11](https://github.com/user-attachments/assets/9f892505-aa41-483f-a5b0-135d9f940b4b)
@@ -339,7 +342,8 @@ def vlm_main(image_file):
 
 <hr>
 
-![2025-06-22 09 08 55](https://github.com/user-attachments/assets/624f466f-d8bd-4b8d-afb7-ec843f9756cb)
+![image](https://github.com/user-attachments/assets/97777e4a-d813-4595-82b3-d7e39b405a72)
+
 
 🟢 ## LLM(요약) 처리 ##  🔗 https://github.com/yewonseowill/aiprof/issues/9
 
